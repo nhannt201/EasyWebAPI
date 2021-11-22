@@ -13,10 +13,9 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nguyễn Trung Nhẫn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2021 Nguyễn Trung Nhẫn")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An extension that makes Get and Post to Web API easily and fast")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-preview+980e9792154cc3b52c8568d28e53beb376072c56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-preview1+72a8ab7a1760093f5016d394f77796747ca186ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,13 @@
+D:\LAPTRINH\C#\EasyWebAPI\bin\Debug\netcoreapp3.1\EasyWebAPI.deps.json
+D:\LAPTRINH\C#\EasyWebAPI\bin\Debug\netcoreapp3.1\EasyWebAPI.dll
+D:\LAPTRINH\C#\EasyWebAPI\bin\Debug\netcoreapp3.1\ref\EasyWebAPI.dll
+D:\LAPTRINH\C#\EasyWebAPI\bin\Debug\netcoreapp3.1\EasyWebAPI.pdb
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.csproj.AssemblyReference.cache
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.AssemblyInfoInputs.cache
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.AssemblyInfo.cs
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.csproj.CoreCompileInputs.cache
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.sourcelink.json
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.dll
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\ref\EasyWebAPI.dll
+D:\LAPTRINH\C#\EasyWebAPI\obj\Debug\netcoreapp3.1\EasyWebAPI.pdb

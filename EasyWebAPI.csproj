@@ -7,20 +7,23 @@
 	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 	<IncludeSymbols>true</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 	<Platforms>AnyCPU</Platforms>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <Authors>Nguyễn Trung Nhẫn</Authors>
     <Copyright>Copyright (c) 2021 Nguyễn Trung Nhẫn</Copyright>
-    <Description>An extension that makes Get and Post to Web API easy and fast</Description>
-    <PackageLicenseExpression>mit</PackageLicenseExpression>
+    <Description>An extension that makes Get and Post to Web API easily and fast</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest</AnalysisLevel>
     <RepositoryType>git</RepositoryType>
     <PackageTags>easy to post web api, post web api, get web api, web api, post file to web api </PackageTags>
     <PackageProjectUrl>https://github.com/nhannt201/EasyWebAPI</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nhannt201/EasyWebAPI</RepositoryUrl>	  
+    <RepositoryUrl>https://github.com/nhannt201/EasyWebAPI</RepositoryUrl>
+    <Version>1.0.0-preview</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>	  
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +31,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	<EmbedUntrackedSources>true</EmbedUntrackedSources>
 	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -10,9 +10,9 @@
 	<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 	<Platforms>AnyCPU</Platforms>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <Authors>Nguyễn Trung Nhẫn</Authors>
-    <Copyright>Copyright (c) 2021 Nguyễn Trung Nhẫn</Copyright>
+    <Copyright>Nguyễn Trung Nhẫn</Copyright>
     <Description>An extension that makes Get and Post to Web API easily and fast</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
@@ -22,19 +22,35 @@
     <PackageTags>easy to post web api, post web api, get web api, web api, post file to web api </PackageTags>
     <PackageProjectUrl>https://github.com/nhannt201/EasyWebAPI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nhannt201/EasyWebAPI</RepositoryUrl>
-    <Version>1.0.0-preview</Version>
-    <PackageReadmeFile>README.md</PackageReadmeFile>	  
+    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <DebugType>portable</DebugType>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <ApplicationIcon>WebAPI.ico</ApplicationIcon>
+    <PackageIcon>WebAPI.png</PackageIcon>
+    <PackageReleaseNotes>Publish</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+	  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
   </ItemGroup>
 
+	<PropertyGroup>
+		<TargetFrameworkMonikerAssemblyAttributesPath>$([System.IO.Path]::Combine('$(IntermediateOutputPath)','$(TargetFrameworkMoniker).AssemblyAttributes$(DefaultLanguageSourceExtension)'))</TargetFrameworkMonikerAssemblyAttributesPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedFiles Include="$(GeneratedAssemblyInfoFile)" />
+	</ItemGroup>
+	
   <ItemGroup>
     <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="WebAPI.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
